@@ -1,0 +1,55 @@
+/* Efek Hover Card */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Efek pada ikon */
+.icon-effect {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.8);
+}
+.hover-card:hover .icon-effect {
+    transform: scale(1.1);
+    filter: brightness(1);
+}
+
+/* Style tambahan untuk header dan warna utama */
+.card-header {
+    background-color: #abc32f;
+}
+.card-title {
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #8ba522;
+    transform: scale(1.05);
+}
+.form-control:focus {
+    box-shadow: 0px 0px 5px 2px #abc32f;
+}
+
+.custom-brand {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em; /* Membuat teks lebih besar */
+    color: #00563b; /* Warna logo dan nama - misal warna oranye */
+}
+
+.custom-brand .fa-utensils {
+    color: #00563b; /* Menyesuaikan warna ikon */
+    margin-right: 5px;
+}
+
+.navbar-name {
+    color: #00563b;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #00563b; /* Warna ketika di-hover */
+}
